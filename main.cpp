@@ -12,5 +12,7 @@ int main() {
     cc.outKey();
     cc.setCommand(true);
     cc.outCommand();
+    cc.setCharacterNumber();
+    cc.outCharacterNumber();
     return 0;
 }

@@ -39,7 +39,6 @@ void CC::outAlphabet() {
 }
 
 void CC::setKey() {
-
     std::cout << "Generate key";
     srand(time(0)+getpid());
     for(int i=0; i<sizeof(key); i++){
@@ -79,6 +78,30 @@ void CC::outCommand() {
     for(int i=0; i<sizeof(command); i++){
         char c = 48+command[i];
         std::cout << c << ' ';
+    }
+    std::cout << std::endl;
+}
+
+void CC::setCharacterNumber() {
+    std::cout << "Create character number";
+    for(int i=0; i<sizeof(characterNumber); i++){
+        char k = key[i];
+        for(int a=0; a<sizeof(alphabet); a++){
+            if(alphabet[a]==k) {
+                characterNumber[i] = a+2;
+                std::cout << a+2 << ' ';
+                break;
+            }
+        }
+    }
+    std::cout << std::endl;
+}
+
+void CC::outCharacterNumber() {
+    std::cout << "Character number: ";
+    for(int i=0; i<sizeof(characterNumber); i++){
+        int t = characterNumber[i];
+        std::cout << t << ' ';
     }
     std::cout << std::endl;
 }

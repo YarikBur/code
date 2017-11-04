@@ -15,11 +15,14 @@ public:
     void outKey();
     void setCommand(bool random);
     void outCommand();
+    void setCharacterNumber();
+    void outCharacterNumber();
 
 private:
     char alphabet[34];
     char key[15];
     char command[15];
+    char characterNumber[sizeof(key)];
 };
 
 
