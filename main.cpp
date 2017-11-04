@@ -6,13 +6,16 @@
 
 int main() {
     CC cc = CC();
+    //cc.outChar256();
     cc.setAlphabet();
     cc.outAlphabet();
     cc.setKey();
     cc.outKey();
-    cc.setCommand(true);
-    cc.outCommand();
     cc.setCharacterNumber();
     cc.outCharacterNumber();
+    cc.setCommand(true, true);
+    cc.outCommand();
+    cc.setModifiedCC();
+    cc.outModifiedCC();
     return 0;
 }

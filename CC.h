@@ -13,16 +13,20 @@ public:
     void outAlphabet();
     void setKey();
     void outKey();
-    void setCommand(bool random);
+    void setCommand(bool random, bool out);
     void outCommand();
     void setCharacterNumber();
     void outCharacterNumber();
+    void setModifiedCC();
+    void outModifiedCC();
 
 private:
     char alphabet[34];
     char key[15];
     char command[15];
     char characterNumber[sizeof(key)];
+    char modifiedCC[sizeof(key)][6];
+
 };
 
 
