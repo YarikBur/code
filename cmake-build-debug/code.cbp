@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Yarik/Desktop/Git/code/CC.cpp">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="C:/Users/Yarik/Desktop/Git/code/CC.h">
+			<Option target="code"/>
+		</Unit>
 		<Unit filename="C:/Users/Yarik/Desktop/Git/code/main.cpp">
 			<Option target="code"/>
 		</Unit>

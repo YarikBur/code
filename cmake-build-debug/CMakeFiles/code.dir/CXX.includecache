@@ -6,7 +6,17 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/Yarik/Desktop/Git/code/CC.cpp
+iostream
+-
+CC.h
+C:/Users/Yarik/Desktop/Git/code/CC.h
+
+C:/Users/Yarik/Desktop/Git/code/CC.h
+
 C:/Users/Yarik/Desktop/Git/code/main.cpp
 iostream
 -
+CC.h
+C:/Users/Yarik/Desktop/Git/code/CC.h
 

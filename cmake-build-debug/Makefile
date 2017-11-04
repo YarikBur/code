@@ -122,6 +122,33 @@ code/fast:
 	$(MAKE) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/build
 .PHONY : code/fast
 
+CC.obj: CC.cpp.obj
+
+.PHONY : CC.obj
+
+# target to build an object file
+CC.cpp.obj:
+	$(MAKE) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/CC.cpp.obj
+.PHONY : CC.cpp.obj
+
+CC.i: CC.cpp.i
+
+.PHONY : CC.i
+
+# target to preprocess a source file
+CC.cpp.i:
+	$(MAKE) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/CC.cpp.i
+.PHONY : CC.cpp.i
+
+CC.s: CC.cpp.s
+
+.PHONY : CC.s
+
+# target to generate assembly for a file
+CC.cpp.s:
+	$(MAKE) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/CC.cpp.s
+.PHONY : CC.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -158,6 +185,9 @@ help:
 	@echo ... code
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... CC.obj
+	@echo ... CC.i
+	@echo ... CC.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
